@@ -12,6 +12,5 @@ int main()
     s1.roll = 101;
     s1.name = "Amit";
     student s2 = s1;
-    cout << s2.roll << endl
-         << s2.name;
+    cout << s2.roll << endl << s2.name;
 }
