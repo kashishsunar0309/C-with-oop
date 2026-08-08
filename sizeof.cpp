@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int size;
-    cout << "Enter the size of element of array";
+    cout << "Enter the size of element of array: ";
     cin >> size;
     int *arr = new int[size];
     cout << "Enter the number of array: ";
@@ -14,7 +14,7 @@ int main()
     cout << "The Element of you type are: ";
     for (int i = 0; i < size; i++)
     {
-        cout << arr[i];
+        cout << arr[i] << ", ";
     }
     delete[] arr;
     return 0;
