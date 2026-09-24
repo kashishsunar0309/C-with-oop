@@ -1,4 +1,6 @@
-/*WAP to create a class account with data members account_no,account holders name,balance and minimum balance. Add member functions create_account,depoist,withdraw and balance_inquary to the class.Create an object of the account class and show all operation with this*/
+/*WAP to create a class account with data members account_no,account holders name,balance and
+minimum balance. Add member functions create_account,depoist,withdraw and balance_inquary to the class.
+Create an object of the account class and show all operation with this*/
 #include <iostream>
 using namespace std;
 class Account
