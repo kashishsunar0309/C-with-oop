@@ -14,7 +14,7 @@ interest::interest(int p, int n, int r)
     principal = p;
     year = n;
     rate = r;
-    am = principal + (principal * rate * year);
+    am = principal + (principal * rate * year) / 100.0;
     cout << "Amount = " << am << endl;
 }
 int main()
