@@ -23,5 +23,5 @@ int main()
     cout << "Variable [a] =" << a << endl;
     cout << "Pointer address[num]= " << num << endl;
     cout << "Pointer with variable value [num-variable] = " << *num << endl;
-    return 0;
+    return 0; // hello
 }
