@@ -14,3 +14,13 @@ int main()
     cout << "Reverse=" << rev << endl;
     return 0;
 }
+/*Start: num = 672, rev = 0
+
+Step 1: rem = 2, rev = 2, num = 67
+
+Step 2: rem = 7, rev = 27, num = 6
+
+Step 3: rem = 6, rev = 276, num = 0
+
+Loop ends → Output: 276
+*/
