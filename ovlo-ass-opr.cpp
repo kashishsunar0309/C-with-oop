@@ -42,7 +42,7 @@ int main()
     mark2.display();
     // use assignment operator
     mark1 = mark2;
-    cout << "Mark in 1st Subject:" << endl; //
+    cout << "Mark in 1st Subject:" << endl;
     mark1.display();
     return 0;
 }
