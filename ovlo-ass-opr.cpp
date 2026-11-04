@@ -37,9 +37,9 @@ int main()
     Marks mark1(45, 89);
     Marks mark2(36, 59);
     cout << "Marks of first student:" << endl;
-    mark1.display();
+    mark1.display(); // to display
     cout << "Marks of second student:" << endl;
-    mark2.display();
+    mark2.display(); // to display
     // use assignment operator
     mark1 = mark2;
     cout << "Mark in 1st Subject:" << endl;
