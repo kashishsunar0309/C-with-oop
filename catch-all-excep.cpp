@@ -38,6 +38,7 @@ int main()
     }
     catch (...)
     {
+        cout << "============================" << endl;
         cout << "Exception is occurred!!!!\n";
     }
     return 0;
